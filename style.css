@@ -125,9 +125,6 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Img cards - Insert the images of your relators here as background-image */
 .no-user {background-image: url("img/user.png"); background-size: cover; background-repeat: no-repeat;}
-.constanze {background-image: url("img/constanze.jpg"); background-size: cover; background-repeat: no-repeat;}
-.sofia {background-image: url("img/sofia.jpg"); background-size: cover; background-repeat: no-repeat;}
-.elena {background-image: url("img/Elena.jpeg"); background-size: cover; background-repeat: no-repeat;}
 
 
 /* Icone */
