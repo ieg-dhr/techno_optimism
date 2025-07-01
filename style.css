@@ -2,6 +2,7 @@
 
 html {
     -webkit-font-smoothing: antialiased;
+    height: 100%;
 }
 
 
@@ -12,6 +13,7 @@ body {
     font: 16px Raleway, sans-serif;
     -webkit-font-smoothing: antialiased;
     position: relative;
+    height: 100%;
 }
 
 
