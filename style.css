@@ -45,6 +45,7 @@ body {
 
 .padding-main-section {
     padding: 4vh 4vh 4vh 4vh !important;
+    text-align: center;
 }
 
 .padding-section {
@@ -108,7 +109,6 @@ body {
     display: block;
     margin: 0 auto !important;
     width: max-content;
-    /* Add this line */
 }
 
 .center-text {
