@@ -283,7 +283,43 @@
     <!-- Bootstrap js-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            console.log("Programm-Skript geladen!"); // Test-Ausgabe für die Konsole
+
+            function seeDayProgram() {
+                // Tag 1 (15. April)
+                $("#1st-program").click(function() {
+                    $(".1st-day-program").show();
+                    $(".2nd-day-program, .3rd-day-program").hide();
+
+                    $("#1st-program").removeClass("button-round-empty-dimgray").addClass("button-round-dimgray");
+                    $("#2nd-program, #3rd-program").removeClass("button-round-dimgray").addClass("button-round-empty-dimgray");
+                });
+
+                // Tag 2 (16. April)
+                $("#2nd-program").click(function() {
+                    $(".1st-day-program, .3rd-day-program").hide();
+                    $(".2nd-day-program").show();
+
+                    $("#2nd-program").removeClass("button-round-empty-dimgray").addClass("button-round-dimgray");
+                    $("#1st-program, #3rd-program").removeClass("button-round-dimgray").addClass("button-round-empty-dimgray");
+                });
+
+                // Tag 3 (17. April)
+                $("#3rd-program").click(function() {
+                    $(".1st-day-program, .2nd-day-program").hide();
+                    $(".3rd-day-program").show();
+
+                    $("#3rd-program").removeClass("button-round-empty-dimgray").addClass("button-round-dimgray");
+                    $("#1st-program, #2nd-program").removeClass("button-round-dimgray").addClass("button-round-empty-dimgray");
+                });
+            }
+
+            // Funktion starten
+            seeDayProgram();
+        });
+    </script>
 </body>
 
 </html>
