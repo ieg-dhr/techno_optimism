@@ -358,6 +358,15 @@ body {
     letter-spacing: 2px;
 }
 
+.program-title {
+    font: 25px Raleway, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #343434;
+}
+
 
 /* Paragraphs */
 
