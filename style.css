@@ -604,6 +604,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.keynote {
+    background-image: url("img/keazor-henry.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;}
+
 
 /* Icone */
 
