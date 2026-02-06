@@ -655,20 +655,20 @@ body {
 }
 .keynote-title {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800; /* Richtig schön fett */
-    font-size: 42px;  /* Deutlich vergrößert */
-    line-height: 1.1;
+    font-weight: 400; /* Normal statt fett */
+    font-size: 32px;  /* Etwas kleiner (vorher 42px) */
+    line-height: 1.3;
     margin-top: 40px;
-    margin-bottom: 60px; /* Großer Abstand nach unten zum Bild/Text */
+    margin-bottom: 60px; /* Den großen Abstand lassen wir, damit es luftig bleibt */
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #8e1c3f; /* Dein dunkles Rot */
+    color: #8e1c3f;
 }
 
 /* Optimierung für mobile Bildschirme */
 @media only screen and (max-width: 767px) {
     .keynote-title {
-        font-size: 26px;
+        font-size: 22px;
         margin-bottom: 40px;
     }
 }
