@@ -558,6 +558,7 @@ body {
     height: 30vh;
     margin: 20px auto;
     width: 30vh;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -640,4 +641,15 @@ body {
     left: 0;
     top: 0;
     position: absolute;
+}
+.row-flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wichtig für mobile Ansicht */
 }
